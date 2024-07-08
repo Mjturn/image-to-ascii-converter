@@ -15,11 +15,21 @@ body > * {
     margin: 5px;
 }
 
+#canvas {
+    display: none;
+}
+
 #image {
     width: 500px;
     height: auto;
     border: 5px solid white;
     display: none;
+}
+
+#ascii-image {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 0.5em;
 }
 
 #upload-image-button, #convert-button {
